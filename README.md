@@ -1,0 +1,2 @@
+# Botyara
+simple discord bot
