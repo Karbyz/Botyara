@@ -32,3 +32,12 @@ The bot will generate a new nickname for the user and change it.
 The bot will join the channel and play the audio file.
 # Commands
 !change_all_nicknames: Changes the nicknames of all non-bot members in the server to newly generated nicknames. Requires administrator permissions.
+
+1. Build the Docker image:
+
+   ```bash
+   docker build -t my-discord-bot .
+2. Run the container:
+
+```bash
+   docker run -d --name discord-bot my-discord-bot
